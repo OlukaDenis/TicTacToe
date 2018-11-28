@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Wpf_Tic-Tac Toe.exe" version="1.0.0.0" publicKeyToken="355fefa1ee0a62bb" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="App.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Wpf_Tic-Tac Toe" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Wpf_Tic-Tac Toe.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Wpf_Tic-Tac Toe.exe" size="36864">
+      <assemblyIdentity name="Wpf_Tic-Tac Toe" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>AtFfMEJs+NPLZMTyeR+7acYGRgnFPl9rTOzpEpJOLWM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="App.ico" size="3638">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ab2L9e5pA11fr/hkyo4wbCYb4mAHJ4mRM6YQ9+uEaxU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Wpf_Tic-Tac Toe.exe.config" size="184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FqWy0dfMmRS85zkU1NlW07p6LsNOPUHodvLiZcFdgJY=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DENNY\McDenny" issuerKeyHash="e574b26562bd24512149566d2a81fed1ee9639f8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>e6UAwWdM/+LFlA8CXuuyE597opctFtzkjkyYF0ATg8A=</DigestValue></Reference></SignedInfo><SignatureValue>HFYIvD3/IFlp23QuCGftHwYhBP/c02d86B6Yf1zhGlMA1ETQ5S9IJ1SFzH5Llp0+FTrg3HRgH/GyFYgjTItiUV1CNa+yVlJQxykXrhSHuX9GADATOZQF6v6cVb/fUWB32329ZvqIwOERD7c3orD+di2EzJRjPzUuyFDZ/Omq+Pk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>w8ZGV+emq7ltc2FqAh53QxNRimfXzJAt351n0AWKaS6mofjUOR4gnzjxcx3nhY2sOzlWtuGWAmsS9fPAxN2ac9wNxrq6xUsdO0emmm2GRUYFFC8Bu8rDX2B+OecA2mkU6dg1y6nkfHzSc0/QcojXjipg62wRQHuHoZHgy+blI70=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="c083134017984c8ee4dc162d97a27b9f13b2eb5e020f94c5e2ff4c67c100a57b" Description="" Url=""><as:assemblyIdentity name="Wpf_Tic-Tac Toe.exe" version="1.0.0.0" publicKeyToken="355fefa1ee0a62bb" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DENNY\McDenny</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>WrK7bGUP2RYei/rhrW/RB2oZ6EPLikd49Yj7iW6V2l8=</DigestValue></Reference></SignedInfo><SignatureValue>bafCpawnfgrCfm2T9/DoNz/IO+ldPendd/S186doLRLR7mZLa38qxEx/HDl0JllMZ5vrb6Z8+y5H6nmj7nNDMZX9JvTFo8sfi17UkbYxwHyKWvzes5/SZd9moqdfmX6OMDeysYWb9UozkL2cijTm2EAy/LHa/1cbFywvLgdPJE8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>w8ZGV+emq7ltc2FqAh53QxNRimfXzJAt351n0AWKaS6mofjUOR4gnzjxcx3nhY2sOzlWtuGWAmsS9fPAxN2ac9wNxrq6xUsdO0emmm2GRUYFFC8Bu8rDX2B+OecA2mkU6dg1y6nkfHzSc0/QcojXjipg62wRQHuHoZHgy+blI70=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQI5iwSAm8xKtBFBxB3Ck2BjANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoARABFAE4ATgBZAFwATQBjAEQAZQBuAG4AeTAeFw0xODExMjcxMDE3MzdaFw0xOTExMjcxNjE3MzdaMCUxIzAhBgNVBAMeGgBEAEUATgBOAFkAXABNAGMARABlAG4AbgB5MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDDxkZX56aruW1zYWoCHndDE1GKZ9fMkC3fnWfQBYppLqah+NQ5HiCfOPFzHeeFjaw7OVa24ZYCaxL188DE3Zpz3A3GurrFSx07R6aabYZFRgUULwG7ysNfYH455wDaaRTp2DXLqeR8fNJzT9ByiNeOKmDrbBFAe4ehkeDL5uUjvQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACWkmGTxx5d2s6t56c0ClbXJBWQfmCHPRFv+lwN/HYisJhSvnc5WMrMTcTHpa/fRdPxBYw7c9RgKmYv6wJkshte53w6S5BO3EdeMGrL5+DFDHuKKKX0byvRp9dGHK+3TIc+oEPQJGl3MLIhsW3yolX64g3oTlLZ8rINjCDY2e7By</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
